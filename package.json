@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --require test/setup.js",
-    "start": "node src/practice.js",
+    "start": "node src/blogful.js",
     "predeploy": "npm audit",
     "deploy": "git push heroku master"
   },
@@ -25,6 +25,6 @@
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
     "nodemon": "^1.18.9",
-    "supertest": "^3.4.1"
+    "supertest": "^3.4.2"
   }
 }
